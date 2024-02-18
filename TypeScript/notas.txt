@@ -1,0 +1,7 @@
+terminal:
+
+>> cria um arquivo ".js" para interpretar pelo NODE, de maneira individual.
+npx tsc .\src\index.ts 
+
+>> cria um arquivo "tsconfig.json" de configuração do TypeScript
+npx tsc --init

@@ -1,0 +1,16 @@
+1º cria novo repositório no github
+
+VScode:
+Terminal:
+
+	git init
+	git add .
+	git commit -m "meu primeiro commit"
+	git brench -m main
+	git remote add origin https://github.com/Zord0m/xxxxxxx
+	git remote set-url origin https:... novo link (corrigir)
+atualizar:
+	
+	git push -u origin main
+	
+	
