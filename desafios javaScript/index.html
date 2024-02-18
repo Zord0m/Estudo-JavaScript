@@ -6,26 +6,23 @@
     <title>PORTAL DE NOTÍCIAS GALACTICA</title>
     <link rel="stylesheet" href="styles/card.css">
     <script src="src/components/CardNews.js" defer></script>
+    <script src="src/components/TituloDinamico.js" defer></script>
 
 </head>
 <body>
     <div class="container">
 
-        <div class="card">
-
-            <div class="card__left">
-                <span>By Lucas Santiago</span>
-                <a href="">Darth Vader Contrata Devs</a>
-                <p>Darth Vader procura desenvolvedores que saibam trabalhar com componentes.</p>
-            </div>
-                
-            <div class="card__right">
-                <img src="assets/asset-vader.png" alt="" srcset="">
-            </div>
-        </div>
-
-    </div>
-
-    <card-news></card-news>
+        <card-news
+            autor = "Santiago"
+            title = "Darth Vader Contrata"
+            link-url = "www.google.com"
+            photo = "assets/asset-vader.png"
+            content = "Darth Vader procura desenvolvedores que saibam trabalhar com componentes."
+        ></card-news>
+        <card-news
+            title = "Yoda convence republica a utilizar componentes"
+            link-url = "www.google.com"
+            content = "Yoda se pronuncia e choca a republica."
+        ></card-news>
 </body>
 </html>
