@@ -1,12 +1,16 @@
-.container__small-card {
-/* border: 1px solid white; */
-width: 700px;
-margin-bottom: 15px;
+.container__small-card{
+  margin-bottom: 15px;
+
+  @media(min-width: 1000px) {
+    width: 700px;
+  }
 }
 
-.container__small-card-content {
+.container__small-card-content{
   display: flex;
   flex-direction: row;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .small-card__photo > img {
@@ -21,6 +25,10 @@ margin-bottom: 15px;
   align-items: center;
 }
 
-.container__small-card__separator {
+.small-card__title > h1 {
+  font-size: 16px;
+}
+
+.container__small-card__separator{
   margin-top: 10px;
 }
